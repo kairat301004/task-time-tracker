@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: Kairat
+      changes:
+        - sqlFile:
+            path: db/changelog/v1-create-tables.sql
+            splitStatements: true
+            stripComments: true
